@@ -48,7 +48,7 @@ tidy$measurement <- factor(tidy$measurement)
 # Create the new dataset which is the average of the variables per
 # activity and subject
 #
-summary <- summarise(group_by(tidy,subject,activity),average = mean(value))
+summary <- summarise(group_by(tidy,subject,activity,measurement),average = mean(value))
 
 # Write the summary to a file , 2 versions the tabkle version and the
 # useful csv version
