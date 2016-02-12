@@ -1,4 +1,4 @@
-# coursera-activity-analysis
+# Coursera Data Cleaning Assignment with R
 Coursera activity analysis for R Data Cleaning Course - [https://www.coursera.org/learn/data-cleaning]
 
 # Brief
